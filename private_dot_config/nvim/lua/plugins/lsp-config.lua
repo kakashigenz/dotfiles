@@ -3,11 +3,13 @@ return {
     "hrsh7th/cmp-nvim-lsp",
   },
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason-lspconfig.nvim",
+    tag = "v1.11.0",
     config = true,
   },
   {
-    "williamboman/mason-lspconfig.nvim",
+    "mason-org/mason-lspconfig.nvim",
+    tag = "v1.32.0",
     opts = {
       ensure_installed = { "lua_ls", "ts_ls", "html", "cssls" },
       automatic_installation = true,
@@ -53,6 +55,5 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
-    config = function() end,
   },
 }
