@@ -3,7 +3,7 @@ return {
     "hrsh7th/cmp-nvim-lsp",
   },
   {
-    "mason-org/mason-lspconfig.nvim",
+    "mason-org/mason.nvim",
     tag = "v1.11.0",
     config = true,
   },
